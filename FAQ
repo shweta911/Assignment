@@ -1,0 +1,17 @@
+Question1) What is the code organised ?
+Answer1  ) Code is in Package unitTestNasdaq.It has 2 java file i)NasdaqAssignment.Java ii)Testjunit.java
+
+Question2) What is the Build Path for NasdaqAssignment.java ?
+Answer2  ) RightClick the file ->Build Path->Configure Build Path->Java Build Path->Libraries (Select JRE System Library[JavaSE-9]
+
+Question3) Question3) What is the Build Path for Testjunit.java ?
+Answer3  ) RightClick the file ->Build Path->Configure Build Path->Java Build Path->Libraries->Add External Jars->(Select Junit4.13)
+
+Question4) Where to downlowd Junit4.13 from?
+Answer4  ) https://junit.org/junit4/
+
+Question5) What if Code Doesnt compile and gives Exception in thread "main" java.lang.NullPointerException ?
+Answer5  ) Check the Path of the DataFile,after being updated to GIT the Path has extra GIT into it.
+           Hence update static String csvFile.
+
+
